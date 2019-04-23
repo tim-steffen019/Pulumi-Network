@@ -1,0 +1,3 @@
+name: pulumiNetworking
+runtime: nodejs
+description: A sample progect with only networking components

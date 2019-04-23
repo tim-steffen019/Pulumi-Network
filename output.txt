@@ -1,0 +1,26 @@
+Previewing update (dev):
+
+ +  pulumi:pulumi:Stack pulumiNetworking-dev create 
+ +  awsx:network:Network test-vpc create 
+ +  aws:ec2:Eip test-vpc-nat-0 create 
+ +  aws:ec2:Eip test-vpc-nat-1 create 
+ +  aws:ec2:Vpc test-vpc create 
+ +  aws:ec2:InternetGateway test-vpc create 
+ +  aws:ec2:RouteTable test-vpc create 
+ +  aws:ec2:Subnet test-vpc-0 create 
+ +  aws:ec2:Subnet test-vpc-1 create 
+ +  aws:ec2:Subnet test-vpc-nat-0 create 
+ +  aws:ec2:Subnet test-vpc-nat-1 create 
+ +  aws:ec2:RouteTableAssociation test-vpc-nat-0 create 
+ +  aws:ec2:NatGateway test-vpc-nat-0 create 
+ +  aws:ec2:RouteTableAssociation test-vpc-nat-1 create 
+ +  aws:ec2:NatGateway test-vpc-nat-1 create 
+ +  aws:ec2:RouteTable test-vpc-nat-0 create 
+ +  aws:ec2:RouteTable test-vpc-nat-1 create 
+ +  aws:ec2:RouteTableAssociation test-vpc-0 create 
+ +  aws:ec2:RouteTableAssociation test-vpc-1 create 
+ 
+Resources:
+    + 19 to create
+
+Permalink: https://app.pulumi.com/tim-steffen/pulumiNetworking/dev/previews/8a55c06f-2c9b-43f0-abb8-8f87c033f41e
