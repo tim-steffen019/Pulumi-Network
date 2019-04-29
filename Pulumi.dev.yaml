@@ -1,4 +1,3 @@
 config:
   aws:region: us-west-2
-  aws:assumeRole: '{"roleArn": "arn:aws:iam::232923568814:role/wawa-sandbox-developer"}'
-  aws:profile: wawa-iam
+  Pulumi-Network:region: us-west-2
